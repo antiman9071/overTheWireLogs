@@ -1,0 +1,3 @@
+0   Natas0    natas0    read the readme
+1   Natas1    0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq    inspect element on the text area
+2   Natas2    TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI    either keep inspect window before you open the bage or click ctrl+u
