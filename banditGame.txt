@@ -1,0 +1,38 @@
+num name       passwd     method
+0   Bandit0    bandit0    log in to ssh(listed in L0)
+1   Bandit1    ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If    cat the readme file
+2   Bandit2    263JGJPfgU6LtdEvgfWU1XP5yac29mFx    cat the file named - (./-)
+3   Bandit3    MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx    cat the file that has spaces in the filename
+4   Bandit4    2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ    cat the file in the inhere directory that is hidden
+5   Bandit5    4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw    cat the only human readable file(./-file07) found using the file command
+6   Bandit6    HWasnPhtq9AVKe0dmk45nxy20cvUa6EG    running du -ba|grep the desired file size
+7   Bandit7    morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj    find the file owned by the bandit6 group in the filesystem(in the dpkg directory)
+8   Bandit8    dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc    grabbing the password next to the asked for user using grep
+9   Bandit9    4CKMh1JI91bUIZZPXDqGanal4xvAg0JM    using sort to sort the data then piping to uniq -u
+10   Bandit10    FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey    cat the data then use grep --binary-files=text then the starting characters
+11   Bandit11    dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr    use base64 --decode
+12   Bandit12    7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4    using tr 'A-Za-z' 'N-ZA-Mn-za-m' you cna rotate the text by 13
+13   Bandit13    FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn    xxd to gz to bz2 to gz to tar to tar to bz2 to tar to gz then to cat data
+14   Bandit14    sshkey.private(MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS)    copy the ssh key to your device then create secure perms
+15   Bandit15    8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo    use the password grabbed from the bandit_pass dir to run nc on the localhost port 30000d submit that
+16   Bandit16    kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx    run openssl s_client in to the specified port and put in the L15 passwd
+17   Bandit17    sshkey                              use nmap to find all listening ports then use nc to check which ports require ssl the openssl (include -ing_eof) for ssl
+18   Bandit18    x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO    diff between two files
+19   Bandit19    cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8    running ssh with the command needed at the end with --norc and the filename
+20   Bandit20    0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO    use the given binary to run a command
+21   Bandit21    EeoULMCra2q0dSkYj561DX7s1CpBuOBt    create a simple tls server by using the echo and nc commands then use the binary to connect to it
+22   Bandit22    tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q    check the crontab then cat the tmp directory
+23   Bandit23    0Zf11ioIjMVN551jX3CmStKLYqjk54Ga    run the command to generate the md5 hash in the cron script
+24   Bandit24    gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8    create a script to run from a cron task and print to a file in your working directomust have correct permissions
+24   Bandit24    iCi86ttT4KSNe1armKiwbQNmB3YJP3q4    create a brute forcing script to put all posibilities in to a file and pipe the file to nc
+25   Bandit25    s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ    resize window so that more enters a command state then use vim commands
+
+26   Bandit26    s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ    resize the terminal so that more enters a command mode then use vim commands to grab pw
+27   Bandit27    upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB    using the vim commands set the shell to bash then use the bandit27-do to grab the password
+28   Bandit28    Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN    use git via ssh by inserting the port number and cloning the repo
+29   Bandit29    4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7    clone the repo, check the git logs and go to the first commit
+30   Bandit30    qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL    git clone from ssh then check the dev branch
+31   Bandit31    fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy    use git tag to find the file then use git show to show it
+32   Bandit32    3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K    create a git commit for the file in the readme
+33   Bandit33    tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0    use $0 to open a normal interactive shell
+34   Bandit34    END    END
